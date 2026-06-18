@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Reading the Land — Amrita WCE-LRR Landslide Field Atlas</title>
+<meta name="description" content="A field atlas of landslide sites investigated by Amrita Vishwa Vidyapeetham's World Centre of Excellence on Landslide Risk Reduction, prepared for WLF7." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════ HEADER ═══════════════════════ -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#hero" class="brand">
+      <span class="brand-mark">AMRITA</span>
+      <span class="brand-sub">WCE-LRR · Landslide Field Atlas</span>
+    </a>
+    <nav class="top-nav">
+      <a href="#overview" class="nav-link" data-sec="overview">Map</a>
+      <a href="#sites"    class="nav-link nav-sites nav-disabled" data-sec="sites">Sites</a>
+      <a href="#about"    class="nav-link" data-sec="about">About</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ═══════════════════════ 1. HERO ═══════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-kicker">World Landslide Forum 7 &middot; Field Atlas</p>
+    <h1>Reading the Land</h1>
+    <p class="hero-tagline">Landslide investigations across India, 2009–present</p>
+    <p class="hero-desc">
+      The Amrita WCE&#8209;LRR has walked, measured and mapped landslide terrain across
+      ten states — 104 sites, from the eastern Himalaya to the Western Ghats.
+      Select a state on the map to explore its geology, failure mechanisms, and
+      field-documented sites.
+    </p>
+    <a href="#overview" class="btn-hero">Explore the Map ↓</a>
+  </div>
+</section>
+
+<!-- ═══════════════════ 2. OVERVIEW ════════════════════ -->
+<section class="overview-section" id="overview">
+
+  <!-- Stats ribbon -->
+  <div class="stats-ribbon">
+    <div class="sr-item">
+      <span class="sr-num">104</span>
+      <span class="sr-lbl">Documented sites</span>
+    </div>
+    <span class="sr-sep"></span>
+    <div class="sr-item">
+      <span class="sr-num">10</span>
+      <span class="sr-lbl">States &amp; UTs</span>
+    </div>
+    <span class="sr-sep"></span>
+    <div class="sr-item">
+      <span class="sr-num">12</span>
+      <span class="sr-lbl">Field chapters</span>
+    </div>
+    <span class="sr-sep"></span>
+    <div class="sr-item">
+      <span class="sr-num">2009–present</span>
+      <span class="sr-lbl">Investigation period</span>
+    </div>
+  </div>
+
+  <!-- Section header -->
+  <div class="ov-intro">
+    <h2>Landslide Site Density by State</h2>
+    <p>Colour intensity reflects the number of documented sites in each state.
+       Click a highlighted state to reveal its geology, failure mechanisms and field record.</p>
+  </div>
+
+  <!-- Choropleth map -->
+  <div class="map-wrap">
+    <div id="choropleth-map"></div>
+  </div>
+
+  <!-- State info panel — appears below map on state click -->
+  <div id="state-panel" class="state-panel" hidden>
+    <div id="state-panel-body"></div>
+  </div>
+
+</section>
+
+<!-- ═══════════════════ 3. SITES ═══════════════════════ -->
+<section class="sites-section" id="sites">
+
+  <!-- Shown when no state is selected -->
+  <div id="sites-empty" class="sites-empty">
+    <div class="sites-empty-inner">
+      <div class="sites-empty-arrow">↑</div>
+      <p>Select a state on the map to explore its documented sites.</p>
+    </div>
+  </div>
+
+  <!-- Populated when a state is selected -->
+  <div id="sites-content" hidden>
+
+    <!-- Coloured hero strip -->
+    <div id="sites-hero" class="sites-hero"></div>
+
+    <div class="sites-body">
+
+      <!-- Quick stats + top types -->
+      <div id="sites-stats" class="sites-stats"></div>
+
+      <!-- Map + research context side by side -->
+      <div class="sites-duo">
+        <div class="duo-map">
+          <p class="col-label">Site Locations</p>
+          <div id="site-map"></div>
+          <p class="map-tip">Click a marker to highlight its card below.</p>
+        </div>
+        <div class="duo-context" id="sites-context"></div>
+      </div>
+
+      <!-- Site cards -->
+      <div class="inventory">
+        <p class="col-label">Site Inventory</p>
+        <h3 id="inventory-title" class="inventory-title"></h3>
+        <div id="site-cards" class="site-cards-grid"></div>
+      </div>
+
+      <!-- References -->
+      <div id="sites-refs" class="sites-refs"></div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══════════════════ 4. ABOUT ═══════════════════════ -->
+<section class="about-section" id="about">
+  <div class="about-inner">
+    <h2>About this Atlas</h2>
+    <p>
+      Every site was visited and assessed in the field by researchers from Amrita
+      Vishwa Vidyapeetham's World Centre of Excellence on Landslide Risk Reduction
+      (WCE&#8209;LRR), recognised under the UNESCO Chair on Experiential Learning
+      for Sustainable Innovation and Development. Each entry follows a consistent
+      data structure: a unique code (Ls1–Ls93), GPS coordinates reconciled from
+      field records, landslide classification, and the triggering event date where known.
+    </p>
+    <p>
+      Sites span debris slides, debris flows, rockfalls, creep movements and
+      catastrophic multi-wave landslides — including some of the most consequential
+      disasters in recent Indian history. Several locations host permanent
+      Deformation and Early-warning Platforms (DEPs) with geophones and rainfall
+      gauges for long-term slope monitoring.
+    </p>
+    <p class="about-credit">
+      Prepared for the <strong>World Landslide Forum 7 (WLF7)</strong> by the
+      World Centre of Excellence on Landslide Risk Reduction, Amrita Vishwa Vidyapeetham.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════ FOOTER ══════════════════════════ -->
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Amrita Vishwa Vidyapeetham &mdash;
+    World Centre of Excellence on Landslide Risk Reduction</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/india-states.js"></script>
+<script src="js/data.js"></script>
+<script src="js/state-research.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
