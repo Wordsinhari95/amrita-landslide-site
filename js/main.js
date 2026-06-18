@@ -304,10 +304,16 @@ function populateSites(info) {
     card.className    = 'site-card';
     card.dataset.code = site.code;
     card.innerHTML = `
-      ${site.photo ? `<div class="sc-img-wrap">
-        <img class="sc-img" src="${site.photo}" alt="${area}" loading="lazy">
-        ${site.caption ? `<p class="sc-caption">${site.caption}</p>` : ''}
-      </div>` : ''}
+      ${site.photo === 'placeholder'
+        ? `<div class="sc-img-wrap sc-img-placeholder">
+             <div class="sc-placeholder-inner"><span class="sc-placeholder-icon">&#x1F4F7;</span><span class="sc-placeholder-txt">Field photograph pending</span></div>
+           </div>`
+        : site.photo
+          ? `<div class="sc-img-wrap">
+               <img class="sc-img" src="${site.photo}" alt="${area}" loading="lazy">
+               ${site.caption ? `<p class="sc-caption">${site.caption}</p>` : ''}
+             </div>`
+          : ''}
       <div class="sc-body">
         <div class="sc-head">
           <div>

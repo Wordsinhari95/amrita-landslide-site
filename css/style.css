@@ -732,6 +732,24 @@ img { max-width: 100%; display: block; }
 
 .sc-img-wrap { position: relative; }
 
+.sc-img-placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--cream-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sc-placeholder-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4em;
+  color: var(--text-muted);
+}
+.sc-placeholder-icon { font-size: 2rem; opacity: 0.4; }
+.sc-placeholder-txt  { font-size: 0.78rem; font-style: italic; }
+
 .sc-img {
   width: 100%;
   aspect-ratio: 16 / 9;

@@ -2,7 +2,7 @@ const CHAPTERS = [
   {
     "id": "sikkim",
     "title": "Sikkim",
-    "subtitle": "Eastern Himalaya \u2014 active rockfall, debris slides and deformation monitoring",
+    "subtitle": "Eastern Himalaya — active rockfall, debris slides and deformation monitoring",
     "center": [
       27.4,
       88.4
@@ -21,7 +21,7 @@ const CHAPTERS = [
         "time": null,
         "note": "shallow mudslides + tow cutting by river",
         "photo": "images/ls81_chandmari.jpg",
-        "caption": "Crown of the Chandmari landslide scarp, East Sikkim \u2014 fractured slope material exposed above the settlement."
+        "caption": "Crown of the Chandmari landslide scarp, East Sikkim — fractured slope material exposed above the settlement."
       },
       {
         "code": "Ls82",
@@ -33,7 +33,8 @@ const CHAPTERS = [
         "type": "Deepsheeted creep landslide",
         "date": null,
         "time": null,
-        "note": "shallow mudslides + tow cutting by river"
+        "note": "shallow mudslides + tow cutting by river",
+        "photo": "placeholder"
       },
       {
         "code": "Ls83",
@@ -47,7 +48,7 @@ const CHAPTERS = [
         "time": null,
         "note": null,
         "photo": "images/ls83_phantam.jpg",
-        "caption": "Phantam Village landslide, South Sikkim \u2014 debris track running through terraced agricultural land."
+        "caption": "Phantam Village landslide, South Sikkim — debris track running through terraced agricultural land."
       },
       {
         "code": "Ls84",
@@ -67,7 +68,7 @@ const CHAPTERS = [
   },
   {
     "id": "kottayam",
-    "title": "Kerala \u2014 Kottayam (2021)",
+    "title": "Kerala — Kottayam (2021)",
     "subtitle": "Debris slides triggered by the October 2021 extreme rainfall event",
     "center": [
       9.58,
@@ -87,7 +88,7 @@ const CHAPTERS = [
         "time": null,
         "note": "Debris slide",
         "photo": "images/ls85_poovanchi.jpg",
-        "caption": "Debris slide scar at Poovanchi, Kottayam \u2014 one of five sites mapped after the October 2021 Kerala rainfall event."
+        "caption": "Debris slide scar at Poovanchi, Kottayam — one of five sites mapped after the October 2021 Kerala rainfall event."
       },
       {
         "code": "Ls86",
@@ -101,7 +102,7 @@ const CHAPTERS = [
         "time": null,
         "note": "Debris slide",
         "photo": "images/ls86_kuttikal.jpg",
-        "caption": "Debris slide along the Kuttikal\u2013Pallapally road, Kottayam, showing slope failure adjacent to the carriageway."
+        "caption": "Debris slide along the Kuttikal–Pallapally road, Kottayam, showing slope failure adjacent to the carriageway."
       },
       {
         "code": "Ls87",
@@ -113,7 +114,8 @@ const CHAPTERS = [
         "type": "Debris slide",
         "date": "17 Oct 2021",
         "time": null,
-        "note": "Debris slide"
+        "note": "Debris slide",
+        "photo": "placeholder"
       },
       {
         "code": "Ls88",
@@ -125,7 +127,8 @@ const CHAPTERS = [
         "type": "Debris slide",
         "date": "17 Oct 2021",
         "time": null,
-        "note": "Debris slide"
+        "note": "Debris slide",
+        "photo": "placeholder"
       },
       {
         "code": "Ls89",
@@ -137,13 +140,14 @@ const CHAPTERS = [
         "type": "Debris slide",
         "date": "17 Oct 2021",
         "time": null,
-        "note": "Debris slide"
+        "note": "Debris slide",
+        "photo": "placeholder"
       }
     ]
   },
   {
     "id": "wayanad2019",
-    "title": "Kerala \u2014 Wayanad & Malappuram (2019)",
+    "title": "Kerala — Wayanad & Malappuram (2019)",
     "subtitle": "The 8 August 2019 debris flow disasters at Puthumala and Kavalapara",
     "center": [
       11.45,
@@ -161,7 +165,8 @@ const CHAPTERS = [
         "type": "Debris flow",
         "date": "8th August 2019",
         "time": "16:00:00",
-        "note": null
+        "note": null,
+        "photo": "placeholder"
       },
       {
         "code": "Ls91",
@@ -173,13 +178,14 @@ const CHAPTERS = [
         "type": "Debris flow",
         "date": "8th August 2019",
         "time": "20:00:00",
-        "note": null
+        "note": null,
+        "photo": "placeholder"
       }
     ]
   },
   {
     "id": "chooralmala",
-    "title": "Kerala \u2014 Chooralmala & Mundakkai (2024)",
+    "title": "Kerala — Chooralmala & Mundakkai (2024)",
     "subtitle": "The 30 July 2024 Wayanad landslide disaster",
     "center": [
       11.4925,
@@ -205,7 +211,7 @@ const CHAPTERS = [
   },
   {
     "id": "munnar",
-    "title": "Kerala \u2014 Munnar, Idukki",
+    "title": "Kerala — Munnar, Idukki",
     "subtitle": "Long-term instrumentation: deformation and rainfall monitoring station",
     "center": [
       10.0889,
@@ -231,7 +237,7 @@ const CHAPTERS = [
   },
   {
     "id": "kodagu",
-    "title": "Karnataka \u2014 Kodagu",
+    "title": "Karnataka — Kodagu",
     "subtitle": "Twelve landslide sites mapped across the Kodagu coffee-growing hills",
     "center": [
       12.4,
@@ -249,7 +255,9 @@ const CHAPTERS = [
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Shallow Debris slide"
+        "note": "Shallow Debris slide",
+        "photo": "images/ls64_madikeri.jpg",
+        "caption": "Slope failure at the DC office compound, Madikeri — debris scar on the hill behind the Commissioner's office."
       },
       {
         "code": "Ls65",
@@ -261,7 +269,9 @@ const CHAPTERS = [
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Shallow Debris slide"
+        "note": "Shallow Debris slide",
+        "photo": "images/ls65_chamundeshwari.jpg",
+        "caption": "Debris slide scar at Chamundeshwari Nagar, Madikeri — house damaged in the 2018 event visible at the toe."
       },
       {
         "code": "Ls66",
@@ -273,7 +283,9 @@ const CHAPTERS = [
         "type": "Debrisflow",
         "date": null,
         "time": null,
-        "note": "Shallow Debris slide"
+        "note": "Shallow Debris slide",
+        "photo": "images/ls66_stonehill.jpg",
+        "caption": "Stone hill slope failure, Kodagu — road-adjacent debris deposit with exposed weathered gneiss."
       },
       {
         "code": "Ls67",
@@ -285,7 +297,9 @@ const CHAPTERS = [
         "type": "Debrisflow",
         "date": null,
         "time": null,
-        "note": "Shallow Debris slide"
+        "note": "Shallow Debris slide",
+        "photo": "images/ls67_udayagiri.jpg",
+        "caption": "Udayagiri landslide, Makkandur — two adjacent slides with blocked stream channel at run-out zone."
       },
       {
         "code": "Ls68",
@@ -297,7 +311,9 @@ const CHAPTERS = [
         "type": "Debrisflow",
         "date": null,
         "time": null,
-        "note": "Shallow Debris slide"
+        "note": "Shallow Debris slide",
+        "photo": "images/ls68_makandoor.jpg",
+        "caption": "Makandoor slope failure — sub-parallel ground cracks on the upper slope above destroyed house."
       },
       {
         "code": "Ls69",
@@ -309,7 +325,9 @@ const CHAPTERS = [
         "type": "Potental landslide with huge cracks",
         "date": null,
         "time": null,
-        "note": "Shallow Debris slide"
+        "note": "Shallow Debris slide",
+        "photo": "images/ls69_devasthur.jpg",
+        "caption": "Ground cracks at Devasthur ridge — 1.5 m wide tension crack sinking annually during monsoon."
       },
       {
         "code": "Ls70",
@@ -321,7 +339,9 @@ const CHAPTERS = [
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Shallow debris slides"
+        "note": "Shallow debris slides",
+        "photo": "images/ls70_aimangala.jpg",
+        "caption": "Field photograph from Aimangala area, Kodagu — shallow debris slide scar on the coffee-plantation slope."
       },
       {
         "code": "Ls71",
@@ -333,7 +353,9 @@ const CHAPTERS = [
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Shallow debris slides"
+        "note": "Shallow debris slides",
+        "photo": "images/ls71_nehrungr.jpg",
+        "caption": "Slope damage near Nehru Nagar, Virajpet — creep movement affecting road and adjacent structures."
       },
       {
         "code": "Ls72",
@@ -345,7 +367,9 @@ const CHAPTERS = [
         "type": "Debris slide/ talus faliure",
         "date": null,
         "time": null,
-        "note": "Shallow Debrisflow"
+        "note": "Shallow Debrisflow",
+        "photo": "images/ls72_thora.jpg",
+        "caption": "Field view of the Thora area failure, Kodagu — talus material exposed below a debris slide track."
       },
       {
         "code": "Ls73",
@@ -357,7 +381,8 @@ const CHAPTERS = [
         "type": "Debrisflow",
         "date": null,
         "time": null,
-        "note": "Shallow landslides"
+        "note": "Shallow landslides",
+        "photo": "placeholder"
       },
       {
         "code": "Ls74",
@@ -369,26 +394,28 @@ const CHAPTERS = [
         "type": "Shallow Debrisflow",
         "date": null,
         "time": null,
-        "note": "Shallow landslides"
+        "note": "Shallow landslides",
+        "photo": "placeholder"
       },
       {
         "code": "Ls75",
         "state": "Karnataka",
         "district": "Kodagu",
-        "area": "Talakk\u0101v\u0113ri",
+        "area": "Talakkāvēri",
         "lat": 12.3854912,
         "lon": 75.4934296,
         "type": "Debrisflow",
         "date": null,
         "time": null,
-        "note": "Shallow mudslides"
+        "note": "Shallow mudslides",
+        "photo": "placeholder"
       }
     ]
   },
   {
     "id": "uttarakhand",
-    "title": "Uttarakhand \u2014 Joshimath & Nainital",
-    "subtitle": "Field investigation, November 2022 \u2014 subsidence, tunnel disaster debris and lake-catchment landslides",
+    "title": "Uttarakhand — Joshimath & Nainital",
+    "subtitle": "Field investigation, November 2022 — subsidence, tunnel disaster debris and lake-catchment landslides",
     "center": [
       30.0,
       79.4
@@ -408,7 +435,7 @@ const CHAPTERS = [
         "time": null,
         "note": "Rockfall cum debris slides",
         "photo": "images/ls58_joshimath.jpg",
-        "caption": "Subsidence-related cracking in a residential structure at Joshimath \u2014 surface manifestation of deep-seated slope deformation."
+        "caption": "Subsidence-related cracking in a residential structure at Joshimath — surface manifestation of deep-seated slope deformation."
       },
       {
         "code": "Ls59",
@@ -484,8 +511,8 @@ const CHAPTERS = [
   },
   {
     "id": "odisha",
-    "title": "Odisha \u2014 Gajapati",
-    "subtitle": "Field investigation, February 2024 \u2014 five sites across the Gajapati hill ranges",
+    "title": "Odisha — Gajapati",
+    "subtitle": "Field investigation, February 2024 — five sites across the Gajapati hill ranges",
     "center": [
       19.02,
       84.2
@@ -566,7 +593,7 @@ const CHAPTERS = [
   },
   {
     "id": "tirumala",
-    "title": "Andhra Pradesh \u2014 Tirumala Hills, Tirupati",
+    "title": "Andhra Pradesh — Tirumala Hills, Tirupati",
     "subtitle": "Rockfall hazard assessment on the Tirumala ghat road",
     "center": [
       13.6714,
@@ -592,33 +619,173 @@ const CHAPTERS = [
   },
   {
     "id": "mizoram",
-    "title": "Mizoram \u2014 Lawngtlai",
-    "subtitle": "Slope failure assessment in the Lushai Hills",
+    "title": "Mizoram — Multi-District Survey (2026)",
+    "subtitle": "Eleven landslide sites across Aizawl, Saitual, Khawzawl, Mamit and Lawngtlai districts",
     "center": [
-      22.5333,
-      92.8961
+      23.2,
+      92.75
     ],
-    "zoom": 11,
+    "zoom": 8,
     "sites": [
+      {
+        "code": "Ls94",
+        "state": "Mizoram",
+        "district": "Aizawl",
+        "area": "Bawngkawn — NH108 Rockfall Site",
+        "lat": 23.745,
+        "lon": 92.722,
+        "type": "Rockfall",
+        "date": "Mar 2026",
+        "time": null,
+        "note": "Rockfall-prone road cut along NH108 near Bawngkawn endangering traffic corridor and buildings.",
+        "photo": "images/ls94_aizawl_bawngkawn.jpg",
+        "caption": "Fractured road-cut slope at Bawngkawn (NH108), Aizawl — overhanging rock blocks posing immediate rockfall hazard."
+      },
+      {
+        "code": "Ls95",
+        "state": "Mizoram",
+        "district": "Aizawl",
+        "area": "Chaltlang — State Highway Rockfall",
+        "lat": 23.738,
+        "lon": 92.712,
+        "type": "Rockfall",
+        "date": "Mar 2026",
+        "time": null,
+        "note": "Structurally controlled rockfall along Chaltlang–Laipuitlang Road; root-induced crack widening observed.",
+        "photo": "images/ls95_aizawl_chaltlang.jpg",
+        "caption": "Splintery rock face at Chaltlang, Aizawl — vegetation-induced crack widening on the exposed sandstone–shale cut."
+      },
+      {
+        "code": "Ls96",
+        "state": "Mizoram",
+        "district": "Aizawl",
+        "area": "Durtlang Leitan — State Highway Rockfall",
+        "lat": 23.752,
+        "lon": 92.705,
+        "type": "Rockfall",
+        "date": "Mar 2026",
+        "time": null,
+        "note": "Steep road-cut with intersecting joints; existing retaining wall and wire mesh present but drainage weep holes blocked.",
+        "photo": "images/ls96_aizawl_durtlang.jpg",
+        "caption": "Steep road-cut at Durtlang Leitan, Aizawl — blocky sandstone-shale slope with partial wire mesh protection."
+      },
+      {
+        "code": "Ls97",
+        "state": "Mizoram",
+        "district": "Saitual",
+        "area": "Ngopa CHC — Below Community Health Centre",
+        "lat": 23.503,
+        "lon": 92.893,
+        "type": "Debris slide",
+        "date": "24 Jun 2025",
+        "time": null,
+        "note": "Slope failure triggered by intense precipitation; retrogressive tension cracks visible in hospital building floor.",
+        "photo": "images/ls97_saitual_ngopa.jpg",
+        "caption": "Slope failure scar below Ngopa Community Health Centre, Saitual — road-cut excavation exposed bedding planes."
+      },
+      {
+        "code": "Ls98",
+        "state": "Mizoram",
+        "district": "Saitual",
+        "area": "Kawlkulh to Khawkawn Road Landslide",
+        "lat": 23.495,
+        "lon": 92.875,
+        "type": "Debris slide",
+        "date": "Mar 2026",
+        "time": null,
+        "note": "Structure-dominated landslide triggered by road widening and slope cutting daylighting weak bedding planes.",
+        "photo": "images/ls98_saitual_kawlkulh.jpg",
+        "caption": "Landslide scar along the Kawlkulh–Khawkawn Road, Saitual — road widening daylighted weak sandstone–shale contacts."
+      },
+      {
+        "code": "Ls99",
+        "state": "Mizoram",
+        "district": "Khawzawl",
+        "area": "Vengtar Street — Khawzawl Subsidence",
+        "lat": 23.693,
+        "lon": 93.2,
+        "type": "Deep-seated creep / subsidence",
+        "date": "Ongoing since 2007",
+        "time": null,
+        "note": "Chronic subsidence zone active since 2007; irrigation well and emergent groundwater indicate hydro-geological drivers.",
+        "photo": "images/ls99_khawzawl.jpg",
+        "caption": "Subsidence damage at Vengtar Street, Khawzawl — differential settlement cracking in a residential structure."
+      },
+      {
+        "code": "Ls100",
+        "state": "Mizoram",
+        "district": "Mamit",
+        "area": "New Diamond School — Mamit Subsidence",
+        "lat": 23.921,
+        "lon": 92.483,
+        "type": "Deep-seated creep / subsidence",
+        "date": "Ongoing (worsened 2024–2025)",
+        "time": null,
+        "note": "Progressive land subsidence beneath school buildings; highly jointed splintery shale and siltstone substratum.",
+        "photo": "images/ls100_mamit_diamond.jpg",
+        "caption": "Ground subsidence at New Diamond School, Mamit — cracking and differential settlement in school premises."
+      },
+      {
+        "code": "Ls101",
+        "state": "Mizoram",
+        "district": "Mamit",
+        "area": "Bazar Veng — Mamit Subsidence",
+        "lat": 23.918,
+        "lon": 92.487,
+        "type": "Deep-seated creep / subsidence",
+        "date": "Mar 2026",
+        "time": null,
+        "note": "Extreme ground settlement; complex interplay between weak weathered lithology and deep-seated gravitational slope deformation.",
+        "photo": "images/ls101_mamit_bazarveng.jpg",
+        "caption": "Extensive settlement cracking in Bazar Veng, Mamit — one of the most acute subsidence zones observed in the survey."
+      },
+      {
+        "code": "Ls102",
+        "state": "Mizoram",
+        "district": "Mamit",
+        "area": "Venghlun Site — Mamit Landslide",
+        "lat": 23.912,
+        "lon": 92.491,
+        "type": "Landslide (non-rainfall triggered)",
+        "date": "Jan 2026",
+        "time": "~15:00",
+        "note": "Landslide occurred mid-January without rainfall trigger; possible deep-seated or wastewater-induced failure.",
+        "photo": "images/ls102_mamit_venghlun.jpg",
+        "caption": "Landslide scar at Venghlun, Mamit — hillside settlement affected by a non-rainfall-triggered failure in January 2026."
+      },
       {
         "code": "Ls92",
         "state": "Mizoram",
         "district": "Lawngtlai",
-        "area": "Lawngtlai town environs",
+        "area": "Lawngtlai — Near Petrol Pump",
         "lat": 22.5333,
         "lon": 92.8961,
-        "type": "Debris slope failure / rockfall",
+        "type": "Translational debris slide",
         "date": "2024",
         "time": null,
-        "note": "Slope stability assessment of debris-mantled hill slopes around Lawngtlai, including a drone-based survey of the affected hillside.",
+        "note": "Overburden-controlled translational failure along roadside; LiDAR and drone survey conducted; petrol pump and road at risk.",
         "photo": "images/ls92_lawngtlai.jpg",
-        "caption": "Field team assessing a debris-mantled slope failure near Lawngtlai, Mizoram."
+        "caption": "Debris-mantled slope failure near the petrol pump, Lawngtlai — translational overburden failure threatening road and infrastructure."
+      },
+      {
+        "code": "Ls103",
+        "state": "Mizoram",
+        "district": "Lawngtlai",
+        "area": "Lawngtlai Bazar Landslide",
+        "lat": 22.53,
+        "lon": 92.898,
+        "type": "Reactivated debris slide",
+        "date": "Reactivated 2025 (original 1995)",
+        "time": null,
+        "note": "Landslide first occurred in 1995, reactivated in 2025 during heavy rainfall; exposed rock scar with ongoing instability.",
+        "photo": "images/ls103_lawngtlai_bazar.jpg",
+        "caption": "Reactivated 1995 landslide scar at Lawngtlai Bazar — exposed debris slope with visible rockfall potential along the bazar road."
       }
     ]
   },
   {
     "id": "arunachal",
-    "title": "Arunachal Pradesh \u2014 Itanagar (Extended Database)",
+    "title": "Arunachal Pradesh — Itanagar (Extended Database)",
     "subtitle": "28 mapped sites across the Itanagar capital region",
     "center": [
       27.09,
@@ -637,7 +804,9 @@ const CHAPTERS = [
         "type": "Shallow Debris slide",
         "date": "15 May 2022",
         "time": null,
-        "note": "Avalanch led debris runout "
+        "note": "Avalanch led debris runout ",
+        "photo": "images/ls01_csector.jpg",
+        "caption": "Road subsidence and cracking in C Sector, Itanagar — slope movement on Middle Siwalik fragile sediments."
       },
       {
         "code": "Ls2",
@@ -649,7 +818,9 @@ const CHAPTERS = [
         "type": "Shallow Debris slide",
         "date": "15 May 2022",
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls02_csector2.jpg",
+        "caption": "Construction on drainage path in C Sector, Itanagar — multi-storey building blocking natural ephemeral drainage."
       },
       {
         "code": "Ls3",
@@ -661,7 +832,9 @@ const CHAPTERS = [
         "type": "Shallow Debris slide",
         "date": "09 Jul 2020",
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls03_donipolo.jpg",
+        "caption": "Debris slide along Donyi Polo Road, Itanagar — road-cut slope failure exposing calcareous Siwalik material."
       },
       {
         "code": "Ls4",
@@ -673,7 +846,9 @@ const CHAPTERS = [
         "type": "Medium size debris slide (Active)",
         "date": "21 Jun 2021",
         "time": "10 :20 am",
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls04_goputinli.jpg",
+        "caption": "Active debris slide at Goputinli, Itanagar — medium-scale failure with visible tension crack at crown."
       },
       {
         "code": "Ls5",
@@ -685,7 +860,9 @@ const CHAPTERS = [
         "type": "Medium size debris slide (Active)",
         "date": "17 May 2022",
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls05_zooroad.jpg",
+        "caption": "Slope failure at Zoo Road, Itanagar — active debris slide endangering the roadway and adjacent structures."
       },
       {
         "code": "Ls6",
@@ -697,7 +874,9 @@ const CHAPTERS = [
         "type": "Creep movement",
         "date": null,
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls06_dokum.jpg",
+        "caption": "Creep movement cracks at Dokum Colony, Itanagar — slow deformation visible in walls and ground."
       },
       {
         "code": "Ls7",
@@ -709,7 +888,9 @@ const CHAPTERS = [
         "type": "Creep movement",
         "date": null,
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls07_hilltop.jpg",
+        "caption": "Slope instability at Hill Top Colony, Itanagar — creep movement affecting colonial-era structures."
       },
       {
         "code": "Ls8",
@@ -721,7 +902,9 @@ const CHAPTERS = [
         "type": "Creep movement",
         "date": null,
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls08_culvet.jpg",
+        "caption": "Culvert location landslide, Itanagar — obstructed drainage contributing to slope saturation."
       },
       {
         "code": "Ls9",
@@ -733,7 +916,9 @@ const CHAPTERS = [
         "type": "Shallow Debris slide",
         "date": null,
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls09_donicol.jpg",
+        "caption": "Debris slide at Doni Colony, Itanagar — shallow failure exposing Quaternary overburden."
       },
       {
         "code": "Ls10",
@@ -745,7 +930,9 @@ const CHAPTERS = [
         "type": "Need to be further assessed",
         "date": null,
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls10_minister.jpg",
+        "caption": "Slope near Minister Colony, Itanagar — potential failure zone with tension features on the hillside."
       },
       {
         "code": "Ls11",
@@ -757,7 +944,9 @@ const CHAPTERS = [
         "type": "Shallow Debris slide",
         "date": null,
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls11_sankipark.jpg",
+        "caption": "Shallow debris slide near Sanki Park, Itanagar — recent scar on the urban hillside."
       },
       {
         "code": "Ls12",
@@ -769,7 +958,9 @@ const CHAPTERS = [
         "type": "Creep movement",
         "date": null,
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls12_roadsink.jpg",
+        "caption": "Road sinking, Itanagar — creep-induced road deformation on the Siwalik hill slopes."
       },
       {
         "code": "Ls13",
@@ -781,7 +972,9 @@ const CHAPTERS = [
         "type": "Medium size debris slide",
         "date": "10th july 2020",
         "time": "7:am ",
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls13_waii.jpg",
+        "caption": "Waii International Hotel landslide, Itanagar — medium-scale debris slide from July 2020 event."
       },
       {
         "code": "Ls14",
@@ -793,7 +986,9 @@ const CHAPTERS = [
         "type": "Creep movement",
         "date": null,
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls14_naharlalgun.jpg",
+        "caption": "Creep movement along the Itanagar–Naharlagun road — cracked retaining structures and road surface."
       },
       {
         "code": "Ls15",
@@ -805,7 +1000,9 @@ const CHAPTERS = [
         "type": "Creep movement",
         "date": null,
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls15_sood.jpg",
+        "caption": "Mudslide at Sood village, Itanagar — shallow slope failure in a residential area on the hill fringe."
       },
       {
         "code": "Ls16",
@@ -817,7 +1014,9 @@ const CHAPTERS = [
         "type": "Shallow mudslides",
         "date": null,
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls16_soodvil.jpg",
+        "caption": "Sood village landslide, Itanagar — shallow mudslide scar on the Siwalik hill slope."
       },
       {
         "code": "Ls17",
@@ -829,7 +1028,9 @@ const CHAPTERS = [
         "type": "shallow mudslides + tow cutting by river",
         "date": null,
         "time": null,
-        "note": "Creep Landslide"
+        "note": "Creep Landslide",
+        "photo": "images/ls17_downpress.jpg",
+        "caption": "Multi-hazard scenario at Downpress Colony, Itanagar — slope failure combined with river erosion at the toe."
       },
       {
         "code": "Ls18",
@@ -841,7 +1042,9 @@ const CHAPTERS = [
         "type": "shallow mudslides + tow cutting by river",
         "date": null,
         "time": null,
-        "note": "Creep movement"
+        "note": "Creep movement",
+        "photo": "images/ls18_riverside.jpg",
+        "caption": "River-side mudslide, Itanagar — lateral erosion by Senki River undercutting the slope base."
       },
       {
         "code": "Ls19",
@@ -853,7 +1056,9 @@ const CHAPTERS = [
         "type": "Shallow mudslides",
         "date": null,
         "time": null,
-        "note": "Creep movement"
+        "note": "Creep movement",
+        "photo": "images/ls19_mudslide.jpg",
+        "caption": "Shallow mudslide, Itanagar outskirts — debris tongue extending onto the road below."
       },
       {
         "code": "Ls20",
@@ -865,7 +1070,9 @@ const CHAPTERS = [
         "type": "Shallow mudslides",
         "date": null,
         "time": null,
-        "note": "Creep movement"
+        "note": "Creep movement",
+        "photo": "images/ls20_mudslide2.jpg",
+        "caption": "Shallow mudslide near Itanagar periphery — saturated Quaternary overburden failure."
       },
       {
         "code": "Ls21",
@@ -877,7 +1084,9 @@ const CHAPTERS = [
         "type": "Shallow Debris slide",
         "date": null,
         "time": null,
-        "note": "Creep movement"
+        "note": "Creep movement",
+        "photo": "images/ls21_roadslide.jpg",
+        "caption": "Road-side slope failure with headward erosion, Itanagar — road cut daylighting weak Siwalik beds."
       },
       {
         "code": "Ls22",
@@ -889,7 +1098,9 @@ const CHAPTERS = [
         "type": null,
         "date": null,
         "time": null,
-        "note": "Creep movement"
+        "note": "Creep movement",
+        "photo": "images/ls22_roadslide2.jpg",
+        "caption": "Road-side slide, Itanagar — exposed reddish silty-sand overburden on a steep road-cut slope."
       },
       {
         "code": "Ls23",
@@ -901,7 +1112,9 @@ const CHAPTERS = [
         "type": "Shallow landslides",
         "date": null,
         "time": null,
-        "note": "Creep movement"
+        "note": "Creep movement",
+        "photo": "images/ls23_roadls.jpg",
+        "caption": "Road-side landslide, Itanagar — shallow failure on the road to Banderdewa."
       },
       {
         "code": "Ls24",
@@ -913,7 +1126,9 @@ const CHAPTERS = [
         "type": "Shallow mudslides",
         "date": null,
         "time": null,
-        "note": "Debris cum mudslide"
+        "note": "Debris cum mudslide",
+        "photo": "images/ls24_roadls2.jpg",
+        "caption": "Road-side landslide, Itanagar — shallow mudslide on the Itanagar–Zoo Road corridor."
       },
       {
         "code": "Ls25",
@@ -925,7 +1140,9 @@ const CHAPTERS = [
         "type": "Shallow mudslides",
         "date": null,
         "time": null,
-        "note": "Debris runout"
+        "note": "Debris runout",
+        "photo": "images/ls25_landslide.jpg",
+        "caption": "Shallow mudslide in the Itanagar capital region — debris accumulation on the road shoulder."
       },
       {
         "code": "Ls26",
@@ -937,7 +1154,9 @@ const CHAPTERS = [
         "type": "Shallow Debris slide",
         "date": null,
         "time": null,
-        "note": "Debris runout and flooding led tow cuttings "
+        "note": "Debris runout and flooding led tow cuttings ",
+        "photo": "images/ls26_landslide2.jpg",
+        "caption": "Shallow debris slide near Itanagar — run-out material deposited on the lower slope and road."
       },
       {
         "code": "Ls27",
@@ -949,7 +1168,9 @@ const CHAPTERS = [
         "type": "Shallow mudslides",
         "date": null,
         "time": null,
-        "note": "Debris slide"
+        "note": "Debris slide",
+        "photo": "images/ls27_roadls3.jpg",
+        "caption": "Road-side landslide near Sood, Itanagar — repeated failure on the fragile Siwalik hill slope."
       },
       {
         "code": "Ls28",
@@ -961,7 +1182,9 @@ const CHAPTERS = [
         "type": "Shallow landslides",
         "date": null,
         "time": null,
-        "note": "Debris slide/ talus faliure"
+        "note": "Debris slide/ talus faliure",
+        "photo": "images/ls28_roadls4.jpg",
+        "caption": "Road-side landslide near Banderdewa — shallow Siwalik overburden failure on the Itanagar periphery."
       }
     ]
   },
@@ -986,7 +1209,9 @@ const CHAPTERS = [
         "type": "Debris runout",
         "date": null,
         "time": null,
-        "note": "Debrisflow"
+        "note": "Debrisflow",
+        "photo": "images/ls30_siju1.jpg",
+        "caption": "Slope failure at Siju, Meghalaya — debris scar on the Achaean basement hill slope."
       },
       {
         "code": "Ls31",
@@ -998,7 +1223,9 @@ const CHAPTERS = [
         "type": "Shallow Debris slide",
         "date": null,
         "time": null,
-        "note": "Debrisflow"
+        "note": "Debrisflow",
+        "photo": "images/ls31_siju2.jpg",
+        "caption": "Debris slide at Siju, Meghalaya — road-cut failure with exposed weathered crystalline rock."
       },
       {
         "code": "Ls32",
@@ -1010,7 +1237,9 @@ const CHAPTERS = [
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Debrisflow"
+        "note": "Debrisflow",
+        "photo": "images/ls32_siju3.jpg",
+        "caption": "Third Siju landslide site, Meghalaya — shallow creep and surface erosion on the steep hillside."
       },
       {
         "code": "Ls33",
@@ -1022,7 +1251,9 @@ const CHAPTERS = [
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Debrisflow"
+        "note": "Debrisflow",
+        "photo": "images/ls33_meg1.jpg",
+        "caption": "Slope failure site in Meghalaya — shallow debris slide on the rain-saturated hillside."
       },
       {
         "code": "Ls34",
@@ -1034,7 +1265,9 @@ const CHAPTERS = [
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Debrisflow"
+        "note": "Debrisflow",
+        "photo": "images/ls34_meg2.jpg",
+        "caption": "Landslide site in Meghalaya — saturated overburden failure on the Meghalayan plateau margin."
       },
       {
         "code": "Ls35",
@@ -1046,175 +1279,205 @@ const CHAPTERS = [
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": null
+        "note": null,
+        "photo": "images/ls35_meg3.jpg",
+        "caption": "Slope failure in Meghalaya — creep movement with visible ground cracking on the hillside."
       },
       {
         "code": "Ls36",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
-        "area": "Meghalaya",
+        "district": "Dima Hasao, Assam",
+        "area": "Haflong area",
         "lat": 25.431249,
         "lon": 93.141754,
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Debrisflow"
+        "note": "Debrisflow",
+        "photo": "images/ls36_meg4.jpg",
+        "caption": "Landslide site in Meghalaya — debris slide on a road-cut slope in the Meghalayan hills."
       },
       {
         "code": "Ls37",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
-        "area": "Meghalaya",
+        "district": "Dima Hasao, Assam",
+        "area": "Haflong area",
         "lat": 25.380767,
         "lon": 93.123707,
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Deep sheeted active  land subsidance creating cracks into multiples houses"
+        "note": "Deep sheeted active  land subsidance creating cracks into multiples houses",
+        "photo": "images/ls37_meg5.jpg",
+        "caption": "Slope failure in Meghalaya — shallow failure in residual soil above crystalline basement."
       },
       {
         "code": "Ls38",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.151325,
         "lon": 93.0258,
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Deep sheeted active creep landslide creating cracks into multiples houses"
+        "note": "Deep sheeted active creep landslide creating cracks into multiples houses",
+        "photo": "images/ls38_haflong1.jpg",
+        "caption": "Deep-seated creep landslide at Haflong, Dima Hasao, Assam — cracking in residential structures above the active slide."
       },
       {
         "code": "Ls39",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.143519,
         "lon": 93.02712,
         "type": "Debrisflow",
         "date": null,
         "time": null,
-        "note": "Deep sheeted active creep landslide creating cracks into multiples houses"
+        "note": "Deep sheeted active creep landslide creating cracks into multiples houses",
+        "photo": "images/ls39_haflong2.jpg",
+        "caption": "Debris flow track at Haflong, Assam — gully erosion and slope failure on the schist-phyllite terrain."
       },
       {
         "code": "Ls40",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.156138,
         "lon": 93.017206,
         "type": "Shallow Debris slide",
         "date": null,
         "time": null,
-        "note": "Deep sheeted active creep landslide creating cracks into multiples houses"
+        "note": "Deep sheeted active creep landslide creating cracks into multiples houses",
+        "photo": "images/ls40_haflong3.jpg",
+        "caption": "Shallow debris slide at Haflong, Assam — disturbed slope material on the hillside above town."
       },
       {
         "code": "Ls41",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.155815,
         "lon": 93.017205,
         "type": "Deep sheeted active creep landslide creating cracks into multiples houses",
         "date": null,
         "time": null,
-        "note": "Deep sheeted active creep landslide creating cracks into multiples houses"
+        "note": "Deep sheeted active creep landslide creating cracks into multiples houses",
+        "photo": "images/ls41_haflong4.jpg",
+        "caption": "Creep landslide at Haflong, Assam — slow slope movement causing cracking in buildings."
       },
       {
         "code": "Ls42",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.177294,
         "lon": 93.020924,
         "type": "Deep sheeted active creep landslide creating cracks into multiples houses",
         "date": null,
         "time": null,
-        "note": "Deep sheeted active creep landslide creating cracks into multiples houses"
+        "note": "Deep sheeted active creep landslide creating cracks into multiples houses",
+        "photo": "images/ls42_haflong5.jpg",
+        "caption": "Deep-seated active creep landslide, Haflong, Assam — multiple cracked structures on the moving mass."
       },
       {
         "code": "Ls43",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.164474,
         "lon": 92.99761,
         "type": "Deep sheeted active creep landslide creating cracks into multiples houses",
         "date": null,
         "time": null,
-        "note": "Deepsheeted creep landslide"
+        "note": "Deepsheeted creep landslide",
+        "photo": "images/ls43_haflong6.jpg",
+        "caption": "Landslide at Haflong, Assam — creep movement affecting houses on the lower hillside."
       },
       {
         "code": "Ls44",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.144128,
         "lon": 93.027782,
         "type": "Shallow Debris slide",
         "date": null,
         "time": null,
-        "note": "Deepsheeted creep landslide"
+        "note": "Deepsheeted creep landslide",
+        "photo": "images/ls44_haflong7.jpg",
+        "caption": "Shallow debris slide, Haflong, Assam — road-cut failure with fresh scarp exposed."
       },
       {
         "code": "Ls45",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.163834,
         "lon": 93.021656,
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Medium size debris slide"
+        "note": "Medium size debris slide",
+        "photo": "images/ls45_haflong8.jpg",
+        "caption": "Creep landslide at Haflong, Assam — progressive movement visible in tilted walls and fences."
       },
       {
         "code": "Ls46",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.184616,
         "lon": 93.109182,
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Medium size debris slide (Active)"
+        "note": "Medium size debris slide (Active)",
+        "photo": "images/ls46_haflong9.jpg",
+        "caption": "Creep landslide, Haflong, Assam — slow-moving debris mass with cracked infrastructure."
       },
       {
         "code": "Ls47",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.183872,
         "lon": 93.115405,
         "type": "Shallow Debris slide",
         "date": null,
         "time": null,
-        "note": "Medium size debris slide (Active)"
+        "note": "Medium size debris slide (Active)",
+        "photo": "images/ls47_haflong10.jpg",
+        "caption": "Shallow debris slide, Haflong, Assam — fresh failure scar on the saturated hillside."
       },
       {
         "code": "Ls48",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.184039,
         "lon": 93.109946,
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Meduim size Debris slides"
+        "note": "Meduim size Debris slides",
+        "photo": "images/ls48_haflong11.jpg",
+        "caption": "Creep landslide, Haflong, Assam — tension cracks and settlement in road pavement above the slide."
       },
       {
         "code": "Ls49",
         "state": "Assam & Meghalaya",
-        "district": "Meghalaya",
+        "district": "Dima Hasao, Assam",
         "area": "Haflong",
         "lat": 25.296772,
         "lon": 93.137459,
         "type": "Shallow Debris slide",
         "date": null,
         "time": null,
-        "note": "Meduim size Debris slides"
+        "note": "Meduim size Debris slides",
+        "photo": "images/ls49_haflong12.jpg",
+        "caption": "Shallow debris slide, Haflong, Assam — run-out debris affecting the road below."
       },
       {
         "code": "Ls50",
@@ -1226,7 +1489,9 @@ const CHAPTERS = [
         "type": "Meduim size Debris slides",
         "date": null,
         "time": null,
-        "note": "Meduim size Debris slides"
+        "note": "Meduim size Debris slides",
+        "photo": "images/ls50_gauhati1.jpg",
+        "caption": "Medium debris slide at Guwahati, Assam — decomposed granite and lateritic overburden exposed on the slope."
       },
       {
         "code": "Ls51",
@@ -1238,7 +1503,9 @@ const CHAPTERS = [
         "type": "Meduim size Debris slides",
         "date": null,
         "time": null,
-        "note": "Need to be further assessed"
+        "note": "Need to be further assessed",
+        "photo": "images/ls51_jyotinagar1.jpg",
+        "caption": "Debris slide at Jyotinagar, Guwahati — 2022 event damaged two houses; rills and gullies visible."
       },
       {
         "code": "Ls52",
@@ -1250,7 +1517,9 @@ const CHAPTERS = [
         "type": "Meduim size Debris slides",
         "date": null,
         "time": null,
-        "note": "Potental landslide with huge cracks"
+        "note": "Potental landslide with huge cracks",
+        "photo": "images/ls52_jyotinagar2.jpg",
+        "caption": "Second debris slide at Jyotinagar, Guwahati — potential failure slope with large tension crack."
       },
       {
         "code": "Ls53",
@@ -1262,7 +1531,9 @@ const CHAPTERS = [
         "type": "Rockfall",
         "date": null,
         "time": null,
-        "note": "Rock falls"
+        "note": "Rock falls",
+        "photo": "images/ls53_gauhati2.jpg",
+        "caption": "Rockfall site at Guwahati, Assam — exposed corestones in decomposed granitic overburden."
       },
       {
         "code": "Ls54",
@@ -1274,7 +1545,9 @@ const CHAPTERS = [
         "type": "Creep Landslide",
         "date": null,
         "time": null,
-        "note": "Rockfall"
+        "note": "Rockfall",
+        "photo": "images/ls54_gauhati3.jpg",
+        "caption": "Creep landslide at Guwahati, Assam — slow slope movement on the hill fringe of the city."
       },
       {
         "code": "Ls55",
@@ -1286,7 +1559,9 @@ const CHAPTERS = [
         "type": "Rockfall",
         "date": null,
         "time": null,
-        "note": "Rockfall"
+        "note": "Rockfall",
+        "photo": "images/ls55_gauhati4.jpg",
+        "caption": "Rockfall, Guwahati, Assam — detached boulders from saprolitic lateritic hillside."
       },
       {
         "code": "Ls56",
@@ -1298,7 +1573,9 @@ const CHAPTERS = [
         "type": "Deep sheeted active creep landslide creating cracks into multiples houses",
         "date": null,
         "time": null,
-        "note": "Rockfall cum debris slides"
+        "note": "Rockfall cum debris slides",
+        "photo": "images/ls56_saron.jpg",
+        "caption": "Deep-seated creep landslide at Saron, Dima Hasao, Assam — multiple houses cracked by slope movement."
       },
       {
         "code": "Ls57",
@@ -1310,7 +1587,9 @@ const CHAPTERS = [
         "type": "Deep sheeted active creep landslide creating cracks into multiples houses",
         "date": null,
         "time": null,
-        "note": "Rockfall cum debris slides"
+        "note": "Rockfall cum debris slides",
+        "photo": "images/ls57_mahur.jpg",
+        "caption": "Deep-seated creep landslide at Mahur, Dima Hasao, Assam — cracking in structures above the active slide mass."
       }
     ]
   }
@@ -1561,7 +1840,7 @@ const ALL_SITES = [
     "code": "Ls75",
     "state": "Karnataka",
     "district": "Kodagu",
-    "area": "Talakk\u0101v\u0113ri",
+    "area": "Talakkāvēri",
     "lat": 12.3854912,
     "lon": 75.4934296,
     "type": "Debrisflow",
@@ -1688,13 +1967,113 @@ const ALL_SITES = [
     "chapter": "tirumala"
   },
   {
+    "code": "Ls94",
+    "state": "Mizoram",
+    "district": "Aizawl",
+    "area": "Bawngkawn — NH108 Rockfall Site",
+    "lat": 23.745,
+    "lon": 92.722,
+    "type": "Rockfall",
+    "chapter": "mizoram"
+  },
+  {
+    "code": "Ls95",
+    "state": "Mizoram",
+    "district": "Aizawl",
+    "area": "Chaltlang — State Highway Rockfall",
+    "lat": 23.738,
+    "lon": 92.712,
+    "type": "Rockfall",
+    "chapter": "mizoram"
+  },
+  {
+    "code": "Ls96",
+    "state": "Mizoram",
+    "district": "Aizawl",
+    "area": "Durtlang Leitan — State Highway Rockfall",
+    "lat": 23.752,
+    "lon": 92.705,
+    "type": "Rockfall",
+    "chapter": "mizoram"
+  },
+  {
+    "code": "Ls97",
+    "state": "Mizoram",
+    "district": "Saitual",
+    "area": "Ngopa CHC — Below Community Health Centre",
+    "lat": 23.503,
+    "lon": 92.893,
+    "type": "Debris slide",
+    "chapter": "mizoram"
+  },
+  {
+    "code": "Ls98",
+    "state": "Mizoram",
+    "district": "Saitual",
+    "area": "Kawlkulh to Khawkawn Road Landslide",
+    "lat": 23.495,
+    "lon": 92.875,
+    "type": "Debris slide",
+    "chapter": "mizoram"
+  },
+  {
+    "code": "Ls99",
+    "state": "Mizoram",
+    "district": "Khawzawl",
+    "area": "Vengtar Street — Khawzawl Subsidence",
+    "lat": 23.693,
+    "lon": 93.2,
+    "type": "Deep-seated creep / subsidence",
+    "chapter": "mizoram"
+  },
+  {
+    "code": "Ls100",
+    "state": "Mizoram",
+    "district": "Mamit",
+    "area": "New Diamond School — Mamit Subsidence",
+    "lat": 23.921,
+    "lon": 92.483,
+    "type": "Deep-seated creep / subsidence",
+    "chapter": "mizoram"
+  },
+  {
+    "code": "Ls101",
+    "state": "Mizoram",
+    "district": "Mamit",
+    "area": "Bazar Veng — Mamit Subsidence",
+    "lat": 23.918,
+    "lon": 92.487,
+    "type": "Deep-seated creep / subsidence",
+    "chapter": "mizoram"
+  },
+  {
+    "code": "Ls102",
+    "state": "Mizoram",
+    "district": "Mamit",
+    "area": "Venghlun Site — Mamit Landslide",
+    "lat": 23.912,
+    "lon": 92.491,
+    "type": "Landslide (non-rainfall triggered)",
+    "chapter": "mizoram"
+  },
+  {
     "code": "Ls92",
     "state": "Mizoram",
     "district": "Lawngtlai",
-    "area": "Lawngtlai town environs",
+    "area": "Lawngtlai — Near Petrol Pump",
     "lat": 22.5333,
     "lon": 92.8961,
-    "type": "Debris slope failure / rockfall",
+    "type": "Translational debris slide",
+    "chapter": "mizoram"
+  },
+  {
+    "code": "Ls103",
+    "state": "Mizoram",
+    "district": "Lawngtlai",
+    "area": "Lawngtlai Bazar Landslide",
+    "lat": 22.53,
+    "lon": 92.898,
+    "type": "Reactivated debris slide",
     "chapter": "mizoram"
   },
   {

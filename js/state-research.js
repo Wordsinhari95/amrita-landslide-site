@@ -77,11 +77,14 @@ const STATE_RESEARCH = {
     displayName: "Mizoram",
     primaryChapter: "mizoram",
     allChapters: ["mizoram"],
-    siteCount: 1,
-    subtitle: "Lawngtlai — Southern Lushai Hills",
-    districts: ["Lawngtlai"],
+    siteCount: 11,
+    subtitle: "Multi-district survey: Aizawl, Saitual, Khawzawl, Mamit and Lawngtlai",
+    districts: ["Aizawl", "Saitual", "Khawzawl", "Mamit", "Lawngtlai"],
     typeBreakdown: [
-      { label: "Debris slope failure", count: 1 }
+      { label: "Rockfall", count: 3 },
+      { label: "Debris slide", count: 3 },
+      { label: "Deep-seated creep / subsidence", count: 3 },
+      { label: "Translational / reactivated debris slide", count: 2 }
     ],
     geology: "Mizoram occupies the southern end of the Indo-Myanmar fold-and-thrust belt, underlain almost entirely by Oligocene–Miocene alternating sandstones and shales (Bhuban and Bokabil formations, Surma Group). These thinly bedded, strongly dipping sedimentary sequences are inherently weak and fail preferentially along bedding planes. Parallel ridges and valleys aligned NNE–SSW characterise the landscape, with slopes at 25–45°.",
     causative: [
